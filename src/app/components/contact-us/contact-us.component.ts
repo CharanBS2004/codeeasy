@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'ce-contact-us',
+  selector: 'ce-contact-us', 
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.scss'
 })
 export class ContactUsComponent {
-
-  contactForm: FormGroup;
+ 
+  contactForm: FormGroup; 
 
   constructor(private fb: FormBuilder) {
     this.contactForm = this.fb.group({
